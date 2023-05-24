@@ -1,3 +1,29 @@
+footer {
+  display: flex;
+  gap: 10px;
+}
+
+.box1 {
+  background-color: green;
+  border-radius: 24px;
+  height: 300px;
+  width: 50%;
+}
+
+.box2 {
+  background-color: white;
+  border-radius: 15px;
+  height: 300px;
+  width: 50%;
+}
+
+.box3 {
+  background-color: salmon;
+  border-radius: 10px;
+  height: 300px;
+  width: 50%;
+}
+
 main {
   display: flex;
   flex-direction: row;

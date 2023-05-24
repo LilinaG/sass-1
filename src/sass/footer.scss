@@ -1,0 +1,17 @@
+@import 'variables';
+
+footer{
+    display: flex;
+    gap:10px;
+}
+
+.box1 {
+    @include box(green, 24px);
+}
+.box2 {
+    @include box(white, 15px);
+}
+
+.box3{
+    @include box(salmon, 10px);
+}
